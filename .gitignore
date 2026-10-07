@@ -1,0 +1,40 @@
+
+## `.gitignore`
+
+Your `.gitignore` can be:
+
+```gitignore
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Log files
+*.log
+logs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Test/cache files
+.pytest_cache/
+.coverage
+
+# Environment / secret files
+.env
