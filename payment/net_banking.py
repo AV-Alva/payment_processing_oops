@@ -2,7 +2,6 @@ from .payment import Payment
 from .exceptions import InvalidPaymentAmountError
 from .logger_config import logger
 
-
 class NetBankingPayment(Payment):
 
     def pay(self, amount):
